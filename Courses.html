@@ -1,0 +1,132 @@
+<html>
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="CSS/StyleCour.css">
+    
+    <title>Courses</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</head>
+
+
+    <body align = "center">
+
+        <b> <div class="navbar"> <ul>
+            <img src="https://gomycode.tn/images/section2GMCLogo.png" alt="icon">
+           <li>  <a href="index.html" > <p class="pages"> HOME </p></a> </li>
+            
+           <li> <a href="Courses.html"> <p class="pages"> COURSES </p></a> </li>
+            
+           <li> <a href="contacts.html"> <p class="pages"> CONTACT </p></a> </li>
+        </ul> </div> </b>
+ 
+  <div class="img">
+        <br> <br> <br> <br>
+        <br> <br> <br> <br>
+        
+<h1> COURSES </h1>
+</div>        
+<br> <br> <br> <br> <br>
+
+
+<div id="vm" class="modal">
+    <p>This is GoMyCode Track. <br>
+        Each track has its own goal. <br>
+        By adopting this track, you chose your own goal.</p>
+    <a href="#" rel="modal:close"><button> Close </button></a>
+</div>
+
+
+
+<div class="firstline"> 
+    <div class="oneone">
+    <img class="pics1" src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+    </div>
+
+    <div class="onetwo">
+    <img class="pics1" src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png" style="width:280px;height:280px;"> 
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+</div>
+    <div class="onethree">
+    <img class="pics1" src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a> </div><br>
+</div>
+</div>
+<br>
+
+<div class ="secondline">
+    <div class="twoone">
+    <img class="pics2" src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+</div>
+    <div class="twotwo">
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+</div>
+    <div class="twothree">
+    <img  src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+</div>
+</div>
+<br>
+
+<div class="thirdline">
+    <div class="threeone">
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+</div>
+    <div class="threetwo">
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a> </div><br>
+</div>
+    <div class="threethree">
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png" style="width:280px;height:280px;">
+    <div class="vm"><a href="#vm" rel="modal:open"> <button > view more </button> </a></div> <br>
+</div></div>
+
+<br>
+<br>
+
+
+  
+
+<h3> Feedback </h3>
+
+
+<button onclick="bold()"> B </button>
+<button onclick="italic()"> I </button>
+<button onclick="underline()"> Underline </button>
+<select id="fs" onchange="changesize()"> 
+    <option >20px</option>
+    <option >30px</option>
+    <option >40px</option>
+</select>
+<select id="ft" onchange="fontfam()">
+    <option> Arial</option>
+    <option> Roboto Mono</option>
+    <option> Times New Roman</option>
+</select> <br> <br>
+<textarea cols ="50" row="20" id="text"> </textarea>
+
+
+
+    </body>
+
+    <script src="JS/main.js"> </script>
+    
+
+</html>
